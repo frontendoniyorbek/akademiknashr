@@ -56,6 +56,7 @@ body {
 	font-weight: 400;
 	line-height: 1.5;
 	color: #000;
+	letter-spacing: 0.5px;
 }
 
 .container {
@@ -158,6 +159,7 @@ body {
 	padding-top: 80px;
 	padding-bottom: 80px;
 	background-color: #252420;
+	margin-bottom: 210px;
 }
 
 .hero-container {
@@ -199,8 +201,63 @@ body {
 	border-radius: 8px;
 }
 
-/*
+/* FEATURES */
+.features {
+	margin-bottom: 210px;
+}
 
-Roboto =>400 500, 700
-Roboto Condensed => 700
- */
+.features-title {
+	max-width: 435px;
+	width: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+	margin-top: 0;
+	margin-bottom: 72px;
+}
+
+.features-list {
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.features-item {
+	max-width: 340px;
+	width: 100%;
+}
+
+.features-item:not(:last-child) {
+	margin-right: 40px;
+}
+
+.features-img-wrapper {
+	width: 100px;
+	height: 100px;
+	background-color: rgba(255, 117, 0, 0.2);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 32px;
+}
+
+.features-item-title {
+	margin-top: 0;
+	margin-bottom: 12px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+}
+
+.features-item-text {
+	margin-top: 0;
+	margin-bottom: 0;
+}
