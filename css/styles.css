@@ -96,7 +96,7 @@ body {
 	padding-bottom: 16px;
 }
 
-.site-header-container {
+.site-header__container {
 	display: flex;
 	align-items: center;
 }
@@ -119,7 +119,7 @@ body {
 	margin-right: 32px;
 }
 
-.site-nav-list {
+.site-nav__list {
 	display: flex;
 	align-items: center;
 	list-style: none;
@@ -127,11 +127,11 @@ body {
 	padding: 0;
 }
 
-.site-nav-item:not(:last-child) {
+.site-nav__item:not(:last-child) {
 	margin-right: 32px;
 }
 
-.site-nav-link {
+.site-nav__link {
 	text-decoration: none;
 	font-weight: 500;
 	font-size: 13px;
@@ -142,11 +142,11 @@ body {
 	transition: opacity 0.4s ease, color 0.4s ease;
 }
 
-.site-nav-link:hover {
+.site-nav__link:hover {
 	color: #ff7500;
 }
 
-.site-nav-link:active {
+.site-nav__link:active {
 	opacity: 0.6;
 }
 
